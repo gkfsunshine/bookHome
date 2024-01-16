@@ -1,0 +1,52 @@
+<view class="page" data-weui-theme="{{theme}}">
+  <mp-toptips msg="{{error}}" type="error" show="{{error}}"></mp-toptips>
+  <mp-form-page title="流动发布" subtitle="一书一信一诗千里相识，缔结缘分">
+    <mp-form id="form" rules="{{rules}}" models="{{formData}}">
+      <mp-cells title="" footer="">
+        <mp-cell prop="name" title="标题" ext-class="">
+          <input bindinput="formInputChange" data-field="name" class="weui-input" placeholder="请输入标题" />
+        </mp-cell>
+        <mp-cell title="分类" has-header="{{false}}" ext-class="weui-cell_select">
+          <picker bindchange="bindAccountChange" value="{{accountIndex}}" range="{{accounts}}">
+            <view class="weui-select">请选择分类</view>
+          </picker>
+        </mp-cell>
+        <mp-cell has-header="{{false}}" has-footer="{{false}}" title="" ext-class="">
+          <textarea class="weui-textarea" placeholder="请输入文本" style="height: 3.3em" />
+          <view class="weui-textarea-counter">0/200</view>
+        </mp-cell>
+        <view class="weui-cells">
+          <view class="">
+            <view class="weui-cell__bd">
+              <view class="weui-uploader">
+                <view class="weui-uploader__bd">
+                  <view class="weui-uploader__files">
+                    <block wx:for="{{imageList}}" wx:for-item="image">
+                      <view class="weui-uploader__file">
+                        <image class="weui-uploader__img" mode="aspectFill" src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+                      </view>
+                    </block>
+                  </view>
+                  <view class="weui-uploader__input-box">
+                    <view class="weui-uploader__input" bindtap="chooseImage"></view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </mp-cells>
+    </mp-form>
+    <checkbox-group slot="tips" bindchange="bindAgreeChange">
+      <label class="weui-agree">
+        <checkbox class="weui-agree__checkbox-check" />
+        <text class="weui-agree__checkbox"></text>
+        <view class="weui-agree__text">阅读并同意<navigator>《相关条款》</navigator>
+        </view>
+      </label>
+    </checkbox-group>
+    <view slot="button">
+      <button class="weui-btn" type="primary" bindtap="submitForm">确认发布</button>
+    </view>
+  </mp-form-page>
+</view>

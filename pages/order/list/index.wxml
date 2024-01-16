@@ -1,0 +1,51 @@
+<!--pages/order/index.wxml-->
+<view>
+  <mp-searchbar>
+  </mp-searchbar>
+  <view class="stv-container">
+    <view class="tab-bar">
+      <view wx:for="{{tabs}}" wx:key="unique" data-index="{{index}}" bindtap="handlerTabTap" class="tab {{activeTab==index?'tab-active':''}}" style="width: {{stv.windowWidth/tabs.length}}px">
+        <text>{{item}}</text>
+      </view>
+      <view style="width: {{stv.lineWidth}}px; left: {{stv.offset/tabs.length}}px" class="under-line {{!stv.tStart? 'withAnimate': ''}}"></view>
+    </view>
+    <view class="scroll-view">
+      <view bindtouchstart="handlerStart" catchtouchmove="handlerMove" bindtouchcancel="handlerCancel" bindtouchend="handlerEnd" class="scroll-view-wrapper {{!stv.tStart? 'withAnimate': ''}}" style="left: -{{stv.offset}}px">
+        <view style="width: {{stv.windowWidth}}px;" wx:for="{{tabs}}" wx:key="unique" class="one-scene">
+          <scroll-view style="height:100%" scroll-y>
+            <view class="order_item">
+              <view class="receive_info">
+                <view>收件人：郭先生</view>
+                <view>待收貨</view>
+              </view>
+              <view class="goods_info">
+                <image class="goods_images" src="##"></image>
+                <view class="goods_text">
+                  <text>标题标题标题</text>
+                  <text>作者</text>
+                  <text>预估运费</text>
+                </view>
+              </view>
+            </view>
+
+            <view class="order_item">
+              <view class="receive_info">
+                <view>收件人：郭先生</view>
+                <view>待收貨</view>
+              </view>
+              <view class="goods_info">
+                <image class="goods_images" src="##"></image>
+                <view class="goods_text">
+                  <text>标题标题标题</text>
+                  <text>作者</text>
+                  <text>预估运费</text>
+                </view>
+              </view>
+            </view>
+
+          </scroll-view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
