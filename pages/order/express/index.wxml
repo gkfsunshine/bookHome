@@ -1,0 +1,32 @@
+<!--pages/order/express/index.wxml-->
+<view>
+  <view class="express_info">快递单号：123456789</view>
+  <view class="order_status express_status">
+    <view class="express_status_icon">
+      <image src="../../../common/images/my/wait_send.png"></image>
+      <view class="express_msg">
+        <text>郭先生 13800138000</text>
+        <text>广州市番禺区祈福新村</text>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="logistics-box" wx:if="{{logisticsData.length > 0}}">
+  <view class="logistics-item" wx:for="{{logisticsData}}" wx:key="index">
+    <view class="logistics-item-left">
+      <view class="line-box">
+        <view class="top-line {{index == 0 ? '' : 'bg-gray'}}"></view>
+        <view class="bottom-line {{index + 1 == logisticsData.length ? '' : 'bg-gray'}}"></view>
+      </view>
+      <view class="center-circle"></view>
+    </view>
+    <view
+      class="logistics-item-right {{index == 0 ? '' : 'color-gray'}}">
+      <view class="logistics-item-text">{{item.content}}</view>
+      <view class="logistics-item-time">{{item.time}}</view>
+    </view>
+  </view>
+</view>
+<view class="logistics-no-info" wx:else>暂无物流信息</view>
+</view>

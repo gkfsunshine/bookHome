@@ -13,7 +13,7 @@
       <view bindtouchstart="handlerStart" catchtouchmove="handlerMove" bindtouchcancel="handlerCancel" bindtouchend="handlerEnd" class="scroll-view-wrapper {{!stv.tStart? 'withAnimate': ''}}" style="left: -{{stv.offset}}px">
         <view style="width: {{stv.windowWidth}}px;" wx:for="{{tabs}}" wx:key="unique" class="one-scene">
           <scroll-view style="height:100%" scroll-y>
-            <view class="order_item">
+            <navigator url="/pages/order/detail/index" hover-class="navigator-hover"  class="order_item">
               <view class="receive_info">
                 <view>收件人：郭先生</view>
                 <view>待收貨</view>
@@ -26,9 +26,9 @@
                   <text>预估运费</text>
                 </view>
               </view>
-            </view>
+            </navigator>
 
-            <view class="order_item">
+            <navigator url="/pages/order/detail/index" hover-class="navigator-hover"  class="order_item">
               <view class="receive_info">
                 <view>收件人：郭先生</view>
                 <view>待收貨</view>
@@ -41,7 +41,7 @@
                   <text>预估运费</text>
                 </view>
               </view>
-            </view>
+            </navigator>
 
           </scroll-view>
         </view>

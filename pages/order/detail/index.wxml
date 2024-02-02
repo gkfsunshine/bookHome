@@ -1,2 +1,61 @@
 <!--pages/order/detail/index.wxml-->
-<text>pages/order/detail/index.wxml</text>
+<view>
+  <view class="order_status">
+    <view class="order_status_icon">
+      <image src="../../../common/images/my/wait_send.png"></image>
+    </view>
+    <view class="order_status_text">
+      <text>待发货</text>
+      <text>感谢你的支持</text>
+    </view>
+  </view>
+
+  <navigator url="/pages/order/express/index" hover-class="navigator-hover" class="order_status express_status">
+    <view class="express_status_icon">
+      <image src="../../../common/images/my/wait_send.png"></image>
+      <text>1234567898</text>
+    </view>
+    <view class="order_status_text express_status_text">
+      <text>></text>
+    </view>
+  </navigator>
+
+  <view class="order_status express_status">
+    <view class="express_status_icon">
+      <image src="../../../common/images/my/wait_send.png"></image>
+      <view class="express_msg">
+        <text>郭先生 13800138000</text>
+        <text>广州市番禺区祈福新村</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="order_status express_status">
+    <view class="express_status_icon">
+      <image src="../../../common/images/my/wait_send.png"></image>
+      <view class="express_msg">
+        <text>发货方式 到付</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="order_item">
+    <view class="receive_info">
+      <view>商品清单</view>
+    </view>
+    <navigator url="#" hover-class="navigator-hover"  class="goods_info">
+      <image class="goods_images" src="##"></image>
+      <view class="goods_text">
+        <text>标题标题标题</text>
+        <text>作者</text>
+        <text>预估运费</text>
+      </view>
+    </navigator>
+  </view>
+
+  <view class="order_info">
+    <text>订单编号：123456789</text>
+    <text>下单时间：2024-01-17 12:12:12</text>
+  </view>
+
+</view>

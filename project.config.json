@@ -1,11 +1,5 @@
 {
-  "appid": "wxaed48efb75c3d664",
   "compileType": "miniprogram",
-  "libVersion": "3.0.1",
-  "packOptions": {
-    "ignore": [],
-    "include": []
-  },
   "setting": {
     "coverView": true,
     "es6": true,
@@ -14,6 +8,8 @@
     "enhance": true,
     "showShadowRootInWxmlPanel": true,
     "packNpmRelationList": [],
+    "ignoreDevUnusedFiles": false,
+    "ignoreUploadUnusedFiles": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -24,5 +20,10 @@
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
-  }
+  },
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "appid": "wxaed48efb75c3d664"
 }

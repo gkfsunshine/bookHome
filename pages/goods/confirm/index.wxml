@@ -1,0 +1,27 @@
+<!--pages/goods/confirm/index.wxml-->
+<view>
+  <view class="address_box">
+    <view class="">郭先生 13800138000 广东省广州市番禺区祈福新村D区广东省广州市番禺区祈福新村D区广东省广州市番禺区祈福新村D区</view>
+    <view>></view>
+  </view>
+
+  <view class="order_item">
+    <view class="receive_info">
+      <view>商品清单</view>
+    </view>
+    <navigator url="#" hover-class="navigator-hover" class="goods_info">
+      <image class="goods_images" src="##"></image>
+      <view class="goods_text">
+        <text>标题标题标题</text>
+        <text>作者</text>
+        <text>预估运费</text>
+      </view>
+    </navigator>
+  </view>
+
+  <view class="goods_bottom">
+    <view class="like_collection">预估运费：8元    运费到付</view> 
+    <navigator url="/pages/goods/confirm/index" class="borrowing">确认借阅</navigator>
+  </view>
+
+</view>

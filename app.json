@@ -5,10 +5,12 @@
     "pages/publish/index",
     "pages/message/index",
     "pages/my/index",
-    "pages/index/index",
-    "pages/order/index",
     "pages/order/list/index",
-    "pages/order/detail/index"
+    "pages/order/detail/index",
+    "pages/order/express/index",
+    "pages/goods/list/index",
+    "pages/goods/detail/index",
+    "pages/goods/confirm/index"
   ],
   "tabBar": {
     "color": "#FCFCFC",

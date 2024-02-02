@@ -57,6 +57,7 @@ Page({
     }
   },
   handlerStart(e) {
+    console.log(1);
     let {clientX, clientY} = e.touches[0];
     this.startX = clientX;
     this.tapStartX = clientX;
@@ -66,6 +67,7 @@ Page({
     this.setData({stv: this.data.stv})
   },
   handlerMove(e) {
+    console.log(2);
     let {clientX, clientY} = e.touches[0];
     let {stv} = this.data;
     let offsetX = this.startX - clientX;
@@ -82,6 +84,7 @@ Page({
 
   },
   handlerEnd(e) {
+    console.log(3);
     let {clientX, clientY} = e.changedTouches[0];
     let endTime = e.timeStamp;
     let {tabs, stv, activeTab} = this.data;

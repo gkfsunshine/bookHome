@@ -1,1 +1,111 @@
 /* pages/order/detail/index.wxss */
+
+.order_status {
+  padding: 0px 10px 0px 5px;
+  height: 80px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  background-color: red;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.order_status .order_status_icon  {
+  width: 50px;
+  height: 50px;
+}
+
+.order_status .order_status_text {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.order_status .order_status_text text {
+  text-align: right;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.express_status {
+  background-color: #ffffff;
+  height: 60px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.express_status .express_status_icon {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+
+.express_status .express_status_icon image{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.express_status .express_status_icon text{
+  color: green;
+}
+
+.order_status .express_status_text text {
+  color: black;
+}
+
+.express_status .express_msg{
+   font-size: 12px;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+}
+
+.express_status .express_msg text{
+  color: black;
+}
+
+
+
+.receive_info {
+  padding: 10px;
+}
+
+.order_item{
+  margin-bottom: 10px;
+}
+
+.goods_info {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.goods_info .goods_images {
+  width: 100px;
+  height: 100px;
+}
+
+.goods_info .goods_text {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.order_info{
+  padding:5px 10px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background-color: #ffffff;
+  font-size: 14px;
+}

@@ -2,7 +2,7 @@
 <view class="infomation-box">
    <view class="header-title">
       <view class="logoimg">
-        <image  src="../../common/images/logo.jpg"></image>
+        <image  src="../../common/images/my/logo.jpg"></image>
       </view>
       <view class="infomation">
           <view class="nickname">昵称昵称</view>
@@ -16,37 +16,37 @@
     </view>
     <view class="order_menu">
         <view class="order_menu_item">
-          <image class="menu_icon" src="../../common/images/wait_send.png"></image>
+          <image class="menu_icon" src="../../common/images/my/wait_send.png"></image>
           <view class="menu_text">待发货</view>
         </view>
 
         <view class="order_menu_item">
-          <image class="menu_icon" src="../../common/images/wait_send.png"></image>
+          <image class="menu_icon" src="../../common/images/my/wait_send.png"></image>
           <view class="menu_text">待发货</view>
         </view>
 
         <view class="order_menu_item">
-          <image class="menu_icon" src="../../common/images/wait_send.png"></image>
+          <image class="menu_icon" src="../../common/images/my/wait_send.png"></image>
           <view class="menu_text">待发货</view>
         </view>
 
         <view class="order_menu_item">
-          <image class="menu_icon" src="../../common/images/wait_send.png"></image>
+          <image class="menu_icon" src="../../common/images/my/wait_send.png"></image>
           <view class="menu_text">待发货</view>
         </view>
 
         <view class="order_menu_item">
-          <image class="menu_icon" src="../../common/images/wait_send.png"></image>
+          <image class="menu_icon" src="../../common/images/my/wait_send.png"></image>
           <view class="menu_text">待发货</view>
         </view>
 
         <view class="order_menu_item">
-          <image class="menu_icon" src="../../common/images/wait_send.png"></image>
+          <image class="menu_icon" src="../../common/images/my/wait_send.png"></image>
           <view class="menu_text">待发货</view>
         </view>
 
         <view class="order_menu_item">
-          <image class="menu_icon" src="../../common/images/wait_send.png"></image>
+          <image class="menu_icon" src="../../common/images/my/wait_send.png"></image>
           <view class="menu_text">待发货</view>
         </view>
     </view>
@@ -61,37 +61,37 @@
     </view>
     <view class="order_menu">
         <view class="order_menu_item">
-          <image class="menu_icon" src="../../common/images/wait_send.png"></image>
+          <image class="menu_icon" src="../../common/images/my/wait_send.png"></image>
           <view class="menu_text">待发货</view>
         </view>
 
         <view class="order_menu_item">
-          <image class="menu_icon" src="../../common/images/wait_send.png"></image>
+          <image class="menu_icon" src="../../common/images/my/wait_send.png"></image>
           <view class="menu_text">待发货</view>
         </view>
 
         <view class="order_menu_item">
-          <image class="menu_icon" src="../../common/images/wait_send.png"></image>
+          <image class="menu_icon" src="../../common/images/my/wait_send.png"></image>
           <view class="menu_text">待发货</view>
         </view>
 
         <view class="order_menu_item">
-          <image class="menu_icon" src="../../common/images/wait_send.png"></image>
+          <image class="menu_icon" src="../../common/images/my/wait_send.png"></image>
           <view class="menu_text">待发货</view>
         </view>
 
         <view class="order_menu_item">
-          <image class="menu_icon" src="../../common/images/wait_send.png"></image>
+          <image class="menu_icon" src="../../common/images/my/wait_send.png"></image>
           <view class="menu_text">待发货</view>
         </view>
 
         <view class="order_menu_item">
-          <image class="menu_icon" src="../../common/images/wait_send.png"></image>
+          <image class="menu_icon" src="../../common/images/my/wait_send.png"></image>
           <view class="menu_text">待发货</view>
         </view>
 
         <view class="order_menu_item">
-          <image class="menu_icon" src="../../common/images/wait_send.png"></image>
+          <image class="menu_icon" src="../../common/images/my/wait_send.png"></image>
           <view class="menu_text">待发货</view>
         </view>
     </view>

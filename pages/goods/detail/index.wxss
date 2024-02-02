@@ -1,0 +1,62 @@
+/* pages/goods/detail/index.wxss */
+.goods_banner{
+  width: 100%;
+}
+.goods_banner image{
+  display: block;
+  width: 100%;
+  height: 220px;
+}
+
+.goods_state {
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  line-height: 50px;
+  align-content: center;
+  text-align: center;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  border-radius: 0px 0px 0px 10px;
+  opacity: 0.5;
+}
+
+.goods_introduction{
+  margin-top: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.goods_recommend{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.goods_bottom{
+  height: 50px;
+  line-height: 50px;
+  background-color: white;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.like_collection{
+  padding-left: 20px;
+}
+
+.borrowing{
+  padding-right: 25px;
+  padding-left: 25px;
+  border-left: 1px solid #cccccc;
+  border-radius: 5px 0px 0px 5px;
+}
+

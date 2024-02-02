@@ -1,0 +1,31 @@
+<!--pages/goods/detail/index.wxml-->
+<view>
+  <view class="goods_banner">
+    <image src="../../../common/images/goods/book.jpg"></image>
+    <view class="goods_state">状态</view>
+  </view>
+
+  <view class="goods_introduction">
+    <view>标题：xxx</view>
+    <view>作者：xxx</view>
+    <view>简介：xxx</view>
+  </view>
+
+  <view class="goods_introduction">
+    <view>推荐值</view>
+    <view class="goods_recommend">
+      <view>收藏数</view>
+      <view>点赞数</view>
+      <view>评论数</view>
+    </view>
+  </view>
+
+  <view class="goods_introduction">
+    <view>点评</view>
+  </view>
+
+  <view class="goods_bottom">
+    <view class="like_collection">收藏   点赞 </view> 
+    <navigator url="/pages/goods/confirm/index" class="borrowing">借阅</navigator>
+  </view>
+</view>
