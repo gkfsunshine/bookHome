@@ -10,27 +10,43 @@
     "pages/order/express/index",
     "pages/goods/list/index",
     "pages/goods/detail/index",
-    "pages/goods/confirm/index"
+    "pages/goods/confirm/index",
+    "pages/address/list/index",
+    "pages/address/detail/index",
+    "pages/address/edit/index"
   ],
+  "window": {
+    "navigationBarTitleText": "流浪书屋",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle":"black"
+  },
   "tabBar": {
-    "color": "#FCFCFC",
+    "color": "#black",
     "selectedColor": "#51A937",
     "borderStyle": "white",
-    "backgroundColor": "#191919",
+    "backgroundColor": "#ffffff",
     "list": [
       {
+        "selectedIconPath": "./common/images/tabBar/home_selected.png",
+        "iconPath":"./common/images/tabBar/home.png",
         "pagePath": "pages/home/index",
         "text": "首页"
       },
       {
+        "selectedIconPath": "./common/images/tabBar/publish_selected.png",
+        "iconPath": "./common/images/tabBar/publish.png",
         "pagePath": "pages/publish/index",
         "text": "发布"
       },
       {
+        "selectedIconPath": "./common/images/tabBar/message_selected.png",
+        "iconPath": "./common/images/tabBar/message.png",
         "pagePath": "pages/message/index",
         "text": "消息"
       },
       {
+        "selectedIconPath": "./common/images/tabBar/my_selected.png",
+        "iconPath": "./common/images/tabBar/my.png",
         "pagePath": "pages/my/index",
         "text": "我的"
       }

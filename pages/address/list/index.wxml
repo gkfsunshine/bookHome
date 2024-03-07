@@ -1,0 +1,49 @@
+<!--pages/address/list/index.wxml-->
+<view>
+  <view>
+    <view class="address_item">
+      <view class="address_info">
+        <view>郭先生 13800138000</view>
+        <view>广东省广州市番禺区祈福新村D区广东省广州市番禺区祈福新村D区广东省广州市番禺区祈福新村D区</view>
+      </view>
+    </view>
+
+    <view class="address_bottom">
+      <view>
+        <view class="page-section page-section-gap">
+          <label class="radio">
+            <radio value="r1" checked="true" />默认地址
+          </label>
+        </view>
+      </view>
+      <view class="operation">编辑 删除</view>
+    </view>
+  </view>
+
+
+  <view>
+    <view class="address_item">
+      <view class="address_info">
+        <view>郭先生 13800138000</view>
+        <view>广东省广州市番禺区祈福新村D区广东省广州市番禺区祈福新村D区广东省广州市番禺区祈福新村D区</view>
+      </view>
+    </view>
+
+    <view class="address_bottom">
+      <view>
+        <view class="page-section page-section-gap">
+          <label class="radio">
+            <radio value="r1" checked="true" />默认地址
+          </label>
+        </view>
+      </view>
+      <view class="operation">
+        <navigator  url="/pages/address/edit/index" hover-class="navigator-hover" >
+          编辑
+        </navigator>
+        删除
+      </view>
+    </view>
+  </view>
+
+</view>

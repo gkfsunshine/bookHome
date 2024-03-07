@@ -1,9 +1,9 @@
 <!--pages/goods/confirm/index.wxml-->
 <view>
-  <view class="address_box">
+  <navigator url="/pages/address/list/index" class="address_box">
     <view class="">郭先生 13800138000 广东省广州市番禺区祈福新村D区广东省广州市番禺区祈福新村D区广东省广州市番禺区祈福新村D区</view>
     <view>></view>
-  </view>
+  </navigator>
 
   <view class="order_item">
     <view class="receive_info">
@@ -21,7 +21,7 @@
 
   <view class="goods_bottom">
     <view class="like_collection">预估运费：8元    运费到付</view> 
-    <navigator url="/pages/goods/confirm/index" class="borrowing">确认借阅</navigator>
+    <navigator url="#" class="borrowing">确认借阅</navigator>
   </view>
 
 </view>

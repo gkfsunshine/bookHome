@@ -1,0 +1,22 @@
+<!--pages/address/edit/index.wxml-->
+<view>
+  <view class="edit_address">
+    <view class="address_item">
+      <label class="address_label">收件人</label>
+      <view class="address_input"><input /></view>
+    </view>
+
+    <view class="address_item">
+      <label class="address_label">手机号码</label>
+      <view class="address_input"><input /></view>
+    </view>
+
+    <view class="address_item">
+      <label class="address_label">所在地区</label>
+      <view class="address_input"><input /></view>
+    </view>
+  </view>
+  <view>
+    <view class="submit_button">提交</view>
+  </view>
+</view>
