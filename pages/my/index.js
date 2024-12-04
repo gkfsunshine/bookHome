@@ -20,7 +20,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+      // 检查用户登录状态
+    const token = wx.getStorageSync('token'); // 假设 token 存储在本地
+    if (!token) {
+      // 如果未登录，跳转到登录页面
+      // wx.redirectTo({
+      //   url: '/pages/login/index' // 登录页面路径
+      // });
+    }
   },
 
   /**

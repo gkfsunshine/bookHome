@@ -4,7 +4,7 @@
   "description": "流浪书屋",
   "main": ".eslintrc.js",
   "dependencies": {
-    "weui-miniprogram": "^1.2.10"
+    "weui-miniprogram": "^1.5.6"
   },
   "devDependencies": {},
   "scripts": {

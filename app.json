@@ -13,7 +13,8 @@
     "pages/goods/confirm/index",
     "pages/address/list/index",
     "pages/address/detail/index",
-    "pages/address/edit/index"
+    "pages/address/edit/index",
+    "pages/login/index"
   ],
   "window": {
     "navigationBarTitleText": "流浪书屋",
