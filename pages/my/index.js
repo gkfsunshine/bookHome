@@ -1,4 +1,6 @@
 // pages/my/index.js
+const base64 = require('../../common/images/base64')
+
 Page({
  
   
@@ -20,6 +22,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    this.setData({
+      icon: base64.icon20,
+    })
       // 检查用户登录状态
     const token = wx.getStorageSync('token'); // 假设 token 存储在本地
     if (!token) {

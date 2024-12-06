@@ -1,4 +1,6 @@
 // pages/home/index.js
+const { get } = require('../../common/utils/request');
+
 Page({
 
   /**
@@ -7,16 +9,23 @@ Page({
   data: {
     inputShowed: false,
     inputVal: '',
-    i: 0
+    i: 0,
+    lists:[]
   },
-  
-  
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    
+    get('/book/index')
+    .then((res) => {
+      if(res.page && res.page.list){
+        this.setData({ lists: res.page.list });
+      }
+    })
+    .catch((err) => {
+      console.error( err);
+    });
   },
   search() {
     return new Promise((resolve) => {

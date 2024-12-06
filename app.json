@@ -14,7 +14,8 @@
     "pages/address/list/index",
     "pages/address/detail/index",
     "pages/address/edit/index",
-    "pages/login/index"
+    "pages/login/index",
+    "pages/chat/chat"
   ],
   "window": {
     "navigationBarTitleText": "流浪书屋",

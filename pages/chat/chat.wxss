@@ -1,0 +1,73 @@
+/* pages/chat/chat.wxss */
+/* 容器样式 */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* 聊天记录 */
+.chat-messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #ffffff;
+}
+
+/* 消息样式 */
+.message-item {
+  margin-bottom: 10px;
+}
+
+.message-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.message-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.message-text {
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  background-color: #e6e6e6;
+}
+
+.message-right .message-text {
+  background-color: #0084ff;
+  color: #ffffff;
+}
+
+/* 输入框样式 */
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+  border-top: 1px solid #dddddd;
+}
+
+.input-box {
+  flex: 1;
+  height: 40px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+}
+
+.send-button {
+  margin-left: 10px;
+  padding: 5px 15px;
+  height: 40px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #0084ff;
+  border: none;
+  border-radius: 20px;
+}
